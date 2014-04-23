@@ -45,9 +45,12 @@
                                     <action selector="redrawStuff:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UOI-Wx-5OI"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="elasticity" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ks3-0b-5dx">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="elasticity" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ks3-0b-5dx">
                                 <rect key="frame" x="129" y="489" width="171" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="VJ9-mY-tI6"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -73,8 +76,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="KMG-fW-um2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="6Gw-Sp-wcv"/>
+                            <constraint firstAttribute="trailing" secondItem="Ks3-0b-5dx" secondAttribute="trailing" constant="20" id="6mH-A1-TZV"/>
                             <constraint firstAttribute="trailing" secondItem="MNv-bf-WX5" secondAttribute="trailing" constant="20" id="76E-g7-2uH"/>
                             <constraint firstItem="4cw-d6-Q80" firstAttribute="top" secondItem="KMG-fW-um2" secondAttribute="bottom" constant="8" id="888-R8-Dtb"/>
+                            <constraint firstItem="Ks3-0b-5dx" firstAttribute="leading" secondItem="4cw-d6-Q80" secondAttribute="trailing" constant="8" id="9FC-M7-Xmn"/>
                             <constraint firstAttribute="trailing" secondItem="pmI-VA-Yno" secondAttribute="trailing" constant="20" id="9KI-CS-zDJ"/>
                             <constraint firstItem="pmI-VA-Yno" firstAttribute="leading" secondItem="4cw-d6-Q80" secondAttribute="trailing" constant="8" id="F3C-42-Nqr"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="4cw-d6-Q80" secondAttribute="bottom" constant="20" id="Fzy-fp-iT0"/>
@@ -82,6 +87,7 @@
                             <constraint firstItem="4cw-d6-Q80" firstAttribute="top" secondItem="XmH-q9-5mr" secondAttribute="bottom" constant="8" id="esC-Mh-TaV"/>
                             <constraint firstItem="MNv-bf-WX5" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="iVC-Zk-riE"/>
                             <constraint firstItem="XmH-q9-5mr" firstAttribute="leading" secondItem="KMG-fW-um2" secondAttribute="trailing" constant="8" id="lLL-Yl-lf5"/>
+                            <constraint firstItem="pmI-VA-Yno" firstAttribute="top" secondItem="Ks3-0b-5dx" secondAttribute="bottom" constant="8" id="sxv-S0-gsD"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="pmI-VA-Yno" secondAttribute="bottom" constant="20" id="tDv-8i-tkZ"/>
                         </constraints>
                     </view>
